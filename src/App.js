@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img className="logo-sipv" src={logo}></img>
+        <img className="logo-sipv" src={logo} alt="yes"></img>
       </header>
       <div>
         <Component />
