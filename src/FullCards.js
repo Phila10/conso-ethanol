@@ -1,4 +1,3 @@
-import logo from "./logo/Vygon logo.png";
 import "./App.css";
 import { useLocalStorage } from "./useLocaleStorage";
 

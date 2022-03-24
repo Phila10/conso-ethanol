@@ -1,7 +1,6 @@
 import logo from "./logo/Vygon logo.png";
 import "./App.css";
 import Component from "./component";
-import FullCards from "./FullCards";
 
 function App() {
   return (
