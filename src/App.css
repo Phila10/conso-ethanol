@@ -53,5 +53,9 @@ input {}
   margin-right: auto;
   width: 100%;
 }
+.FullCard-Component {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 10px 2em;
 
-
+}
