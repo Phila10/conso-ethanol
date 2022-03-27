@@ -29,21 +29,21 @@ function App() {
       </header>
      
         <Routes>
-        <Route path="/" element={<FullCards/>} />
+        <Route exact path="/" element={<FullCards/>} />
          
-          <Route path="/MP2" element={<Component/>} />
-          <Route path="/MP6" element={<ComponentMP6/>} />
-          <Route path="/MP8" element={<ComponentMP8/>} />
-          <Route path="/MP9" element={<ComponentMP9/>} />
-          <Route path="/MP10" element={<ComponentMP10/>} />
-          <Route path="/MEP2" element={<ComponentMEP2/>} />
-          <Route path="/VAD" element={<ComponentVAD/>} />
-          <Route path="/BIO2" element={<ComponentBIO2/>} />
-          <Route path="/BIO3" element={<ComponentBIO3/>} />
-          <Route path="/BIO4" element={<ComponentBIO4/>} />
-          <Route path="/QIMOM" element={<ComponentQIMOM/>} />
-          <Route path="/PELL" element={<ComponentPELL/>} />
-          <Route path="/AF" element={<ComponentAF/>} />
+          <Route exact path="/MP2" element={<Component/>} />
+          <Route exact path="/MP6" element={<ComponentMP6/>} />
+          <Route exact path="/MP8" element={<ComponentMP8/>} />
+          <Route exact path="/MP9" element={<ComponentMP9/>} />
+          <Route exact path="/MP10" element={<ComponentMP10/>} />
+          <Route exact path="/MEP2" element={<ComponentMEP2/>} />
+          <Route exact path="/VAD" element={<ComponentVAD/>} />
+          <Route exact path="/BIO2" element={<ComponentBIO2/>} />
+          <Route exact path="/BIO3" element={<ComponentBIO3/>} />
+          <Route exact path="/BIO4" element={<ComponentBIO4/>} />
+          <Route exact path="/QIMOM" element={<ComponentQIMOM/>} />
+          <Route exact path="/PELL" element={<ComponentPELL/>} />
+          <Route exact path="/AF" element={<ComponentAF/>} />
         </Routes>
      
     
