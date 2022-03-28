@@ -3,6 +3,7 @@ import "./App.css";
 import FullCards from "./FullCards";
 import Component from "./component";
 import ComponentMP6 from "./componentMP6";
+import ComponentMP7 from "./componentMP7";
 import ComponentMP8 from "./componentMP8";
 import ComponentMP9 from "./componentMP9";
 import ComponentMP10 from "./componentMP10";
@@ -33,6 +34,7 @@ function App() {
          
           <Route exact path="/MP2" element={<Component/>} />
           <Route exact path="/MP6" element={<ComponentMP6/>} />
+          <Route exact path="/MP7" element={<ComponentMP7/>} />
           <Route exact path="/MP8" element={<ComponentMP8/>} />
           <Route exact path="/MP9" element={<ComponentMP9/>} />
           <Route exact path="/MP10" element={<ComponentMP10/>} />
